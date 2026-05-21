@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mempercantik bentuk scrollbar agar pas dengan tema alam */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F9F9F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4A3B32;
+  /* hiking.darkBrown */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E67E22;
+  /* hiking.orange */
+}
+
+/* Base style tambahan untuk memastikan tema earth tone konsisten */
+body {
+  background-color: #F9F9F9;
+  /* Sesuai dengan hiking.bgLight */
+  color: #2C3E50;
+  font-family: 'Inter', sans-serif;
+}
