@@ -90,7 +90,7 @@ function BundleCard({ bundle }) {
                         </button>
                     ) : (
                         <a
-                            href={`https://wa.me/+628981555240?text=${encodeURIComponent(`Halo Admin AdventureRent, saya tertarik untuk menyewa ${bundle.name} seharga ${bundle.price} untuk durasi ${bundle.duration}. Apakah slotnya masih tersedia?`)}`}
+                            href={`https://wa.me/+628981555240?text=${encodeURIComponent(`Halo Admin Royal Outdoor, saya tertarik untuk menyewa ${bundle.name} seharga ${bundle.price} untuk durasi ${bundle.duration}. Apakah slotnya masih tersedia?`)}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-white hover:bg-hiking-orange hover:text-white text-hiking-darkBrown text-[11px] font-bold py-2 px-3.5 rounded-hiking-sm transition-all duration-200 uppercase tracking-wider shadow-sm text-center block"

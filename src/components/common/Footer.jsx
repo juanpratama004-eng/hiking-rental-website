@@ -7,7 +7,7 @@ function Footer() {
 
                 {/* Kolom 1: Tentang / Deskripsi Ringkas */}
                 <div className="md:col-span-1">
-                    <h3 className="text-white text-lg font-bold mb-4">Adventureland</h3>
+                    <h3 className="text-white text-lg font-bold mb-4">Royal Outdoor</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">
                         Penyedia layanan persewaan alat mendaki gunung dan ekspedisi terlengkap, aman, dan tepercaya untuk petualangan tanpa ribet.
                     </p>
@@ -38,7 +38,6 @@ function Footer() {
                     <h4 className="text-white text-sm font-semibold uppercase tracking-wider mb-4">Basecamp Utama</h4>
                     <p className="text-sm text-gray-400 leading-relaxed">
                         Jl. Puskesmas No.2, RT.05/RW.11, Pd. Aren, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15224<br />
-                        <span className="block mt-2 font-medium text-white">cs@adventureland.com</span>
                     </p>
                 </div>
 
@@ -46,7 +45,7 @@ function Footer() {
 
             {/* Garis batas & Copyright */}
             <div className="max-w-7xl mx-auto pt-6 border-t border-stone-600 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-400">
-                <p>&copy; {new Date().getFullYear()} Adventureland Hiking Rental. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Royal Outdoor Hiking Rental. All rights reserved.</p>
                 <div className="flex space-x-4 mt-2 sm:mt-0">
                     <span className="hover:text-white cursor-pointer">Privacy Policy</span>
                     <span className="hover:text-white cursor-pointer">Terms of Service</span>

@@ -7,9 +7,11 @@ function Navbar() {
                 <div className="flex items-center justify-between h-16">
 
                     {/* Kiri: Logo / Brand */}
-                    <div className="flex-shrink-0 flex items-center">
+                    <div className="flex-shrink-0 flex items-center gap-2">
+                        {/* Jika logo sudah dimasukkan ke src/assets/logo.png, akan muncul di sini */}
+                        <img src="/logo.png" alt="Royal Outdoor" className="h-10 w-auto" onError={(e) => e.target.style.display='none'} />
                         <span className="text-xl font-bold tracking-tight text-hiking-darkBrown">
-                            Adventure<span className="text-hiking-orange">Rent</span>
+                            Royal<span className="text-hiking-orange">Outdoor</span>
                         </span>
                     </div>
 
