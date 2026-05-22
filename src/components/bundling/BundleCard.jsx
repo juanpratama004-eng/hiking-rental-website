@@ -24,7 +24,7 @@ function BundleCard({ bundle }) {
                     onError={(e) => {
                         // Fallback jika file gambar belum ada atau salah penulisan nama
                         e.target.onerror = null;
-                        e.target.src = "https://placehold.co/400x500/4a3b32/786152?text=Royal+Outdoor";
+                        e.target.src = "https://placehold.co/400x500/4a3b32/786152?text=Royal+Rent+Outdoor";
                     }}
                 />
 
@@ -100,7 +100,7 @@ function BundleCard({ bundle }) {
                         </button>
                     ) : (
                         <a
-                            href={`https://wa.me/+628981555240?text=${encodeURIComponent(`Halo Admin Royal Outdoor, saya tertarik untuk menyewa ${bundle.name} seharga ${bundle.price} untuk durasi ${bundle.duration}. Apakah slotnya masih tersedia?`)}`}
+                            href={`https://wa.me/+628981555240?text=${encodeURIComponent(`Halo Admin Royal Rent Outdoor, saya tertarik untuk menyewa ${bundle.name} seharga ${bundle.price} untuk durasi ${bundle.duration}. Apakah slotnya masih tersedia?`)}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full bg-gradient-to-r from-hiking-orange to-amber-500 hover:from-hiking-orangeHover hover:to-amber-600 text-white text-[11px] font-extrabold py-3 rounded-xl transition-all duration-300 uppercase tracking-wider shadow-md hover:-translate-y-0.5 active:translate-y-0 inline-flex items-center justify-center whitespace-nowrap"

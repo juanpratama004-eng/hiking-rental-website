@@ -25,7 +25,7 @@ function ProcedureView() {
                         Prosedur & Layanan Pelanggan
                     </h1>
                     <p className="text-xs sm:text-sm text-stone-400 mt-3 tracking-widest uppercase font-semibold select-none">
-                        Royal Outdoor Tangsel
+                        Royal Rent Outdoor Tangsel
                     </p>
                 </div>
             </div>
@@ -101,7 +101,7 @@ function ProcedureView() {
 
                             {/* Google Maps iFrame Live Link dari Klien */}
                             <iframe
-                                title="Basecamp Royal Outdoor Tangsel"
+                                title="Basecamp Royal Rent Outdoor Tangsel"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60647.29873338479!2d106.63924064863278!3d-6.2590035999999944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1b53b8cda15%3A0x216ae63c0b51ee56!2sRoyal%20Rental%20Outdoor!5e1!3m2!1sid!2sid!4v1779008692513!5m2!1sid!2sid"
                                 className="absolute inset-0 w-full h-full border-0 z-0 grayscale-[20%] contrast-[105%] group-hover:grayscale-0 transition-all duration-700"
                                 allowFullScreen=""
@@ -115,7 +115,7 @@ function ProcedureView() {
                                     Basecamp Utama
                                 </span>
                                 <h3 className="text-base font-extrabold text-hiking-darkBrown mb-2 tracking-tight select-none">
-                                    Royal Outdoor Tangsel
+                                    Royal Rent Outdoor Tangsel
                                 </h3>
                                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                                     Jl. Puskesmas No.2, RT.05/RW.11, Pd. Aren, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15224

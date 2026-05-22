@@ -8,9 +8,9 @@ function Footer() {
                 {/* Kolom 1: Tentang / Deskripsi Ringkas */}
                 <div className="md:col-span-1 flex flex-col space-y-4">
                     <div className="flex items-center gap-2">
-                        <img src="/logo.png" alt="Royal Outdoor" className="h-10 w-auto" onError={(e) => e.target.style.display = 'none'} />
+                        <img src="/logo.png" alt="Royal Rent Outdoor" className="h-10 w-auto" onError={(e) => e.target.style.display = 'none'} />
                         <span className="text-xl font-extrabold tracking-tight text-white select-none">
-                            Royal<span className="text-hiking-orange">Outdoor</span>
+                            Royal Rent<span className="text-hiking-orange"> Outdoor</span>
                         </span>
                     </div>
                     <p className="text-stone-400 text-sm leading-relaxed font-medium">
@@ -107,7 +107,7 @@ function Footer() {
 
             {/* Garis batas & Copyright */}
             <div className="max-w-7xl mx-auto pt-8 border-t border-stone-800 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
-                <p className="text-center sm:text-left font-medium select-none">&copy; {new Date().getFullYear()} Royal Outdoor Hiking Rental. All rights reserved.</p>
+                <p className="text-center sm:text-left font-medium select-none">&copy; {new Date().getFullYear()} Royal Rent Outdoor Hiking Rental. All rights reserved.</p>
                 <div className="flex space-x-6 font-medium">
                     <span className="hover:text-hiking-orange transition-colors cursor-pointer">Privacy Policy</span>
                     <span className="hover:text-hiking-orange transition-colors cursor-pointer">Terms of Service</span>
