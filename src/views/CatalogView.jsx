@@ -20,9 +20,9 @@ const INDIVIDUAL_PRODUCTS = [
     { id: 6, category: 'tenda', categoryName: 'Tenda & Shelter', name: 'Frame Tenda Kapasitas 4', price: 'Rp 15.000', image: 'item-frame-tenda4p.jpg' },
 
     // CARRIER & TAS
-    { id: 8, category: 'tas', categoryName: 'Carrier & Tas', name: 'Carrier 65L', price: 'Rp 35.000', image: 'item-carrier-consina-65l.jpg' },
+    { id: 8, category: 'tas', categoryName: 'Carrier & Tas', name: 'NATUREHIKE 55L', price: 'Rp 40.000', image: 'item-carrier-consina-65l.jpg' },
     { id: 9, category: 'tas', categoryName: 'Carrier & Tas', name: 'Carrier 40-45L', price: 'Rp 20.000', image: 'item-carrier-random-45l.jpg' },
-    { id: 10, category: 'tas', categoryName: 'Carrier & Tas', name: 'Carrier 60L', price: 'Rp 30.000', image: 'item-carrier-random-60l.jpg' },
+    { id: 10, category: 'tas', categoryName: 'Carrier & Tas', name: 'CONSINA EVEREST GEN 3 65L', price: 'Rp 35.000', image: 'item-carrier-random-60l.jpg' },
     { id: 11, category: 'tas', categoryName: 'Carrier & Tas', name: 'Daypack', price: 'Rp 20.000', image: 'item-daypack.jpg' },
     { id: 12, category: 'tas', categoryName: 'Carrier & Tas', name: 'Hydropack', price: 'Rp 20.000', image: 'item-hydropack.jpg' },
     { id: 13, category: 'tas', categoryName: 'Carrier & Tas', name: 'Rain Cover All Size', price: 'Rp 10.000', image: 'item-raincover.jpg' },
