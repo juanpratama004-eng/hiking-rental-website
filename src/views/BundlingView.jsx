@@ -100,22 +100,33 @@ const PRICELIST_DATA = [
 
 function BundlingView() {
     return (
-        <section id="bundling" className="bg-stone-50 py-20 px-4 sm:px-6 lg:px-8 w-full border-t border-gray-100">
+        <section id="bundling" className="bg-stone-50 py-24 px-4 sm:px-6 lg:px-8 w-full border-t border-stone-100">
             <div className="max-w-7xl mx-auto w-full">
 
                 {/* Header Sekaligus Informasi Aturan Jaminan dari Cetak Biru */}
-                <div className="text-center mb-12">
-                    <span className="text-hiking-orange font-bold text-xs uppercase tracking-widest block mb-1">Daftar Harga Lengkap</span>
-                    <h2 className="text-3xl font-extrabold text-hiking-darkBrown tracking-tight">
+                <div className="text-center mb-14 animate-fade-in-up">
+                    <span className="bg-orange-50 text-hiking-orange border border-orange-100 font-extrabold text-[10px] uppercase tracking-[0.2em] px-3.5 py-1.5 rounded-full inline-block mb-3.5 select-none">
+                        Daftar Harga Lengkap
+                    </span>
+                    <h2 className="text-3xl sm:text-4xl font-extrabold text-hiking-darkBrown tracking-tight">
                         Pricelist Paket Hemat
                     </h2>
-                    <div className="mt-3 max-w-xl mx-auto bg-amber-50 border border-amber-200 rounded-hiking-md p-3 text-amber-800 text-xs leading-relaxed">
-                        <strong>💡 Informasi Penting:</strong> Wajib menyerahkan kartu identitas asli (KTP / SIM / Kartu Mahasiswa / Kartu Pegawai) sebagai jaminan selama masa peminjaman alat.
+                    
+                    <div className="mt-5 max-w-2xl mx-auto bg-amber-50/70 backdrop-blur-sm border border-amber-200/60 rounded-2xl p-4 text-amber-900 text-xs text-left sm:text-center leading-relaxed flex flex-col sm:flex-row items-center justify-center gap-3 shadow-sm select-none">
+                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center text-amber-600 font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4.5 w-4.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                            </svg>
+                        </div>
+                        <p className="font-medium text-stone-700">
+                            <span className="text-amber-800 font-extrabold uppercase tracking-wider text-[10px] mr-1 block sm:inline">Informasi Jaminan:</span> 
+                            Wajib menyerahkan kartu identitas asli (KTP / SIM / Kartu Mahasiswa) selama masa peminjaman alat.
+                        </p>
                     </div>
                 </div>
 
                 {/* Grid Render Kartu Paket Hemat */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {PRICELIST_DATA.map((bundle) => (
                         <BundleCard key={bundle.id} bundle={bundle} />
                     ))}

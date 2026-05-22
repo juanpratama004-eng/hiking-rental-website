@@ -70,29 +70,31 @@ function CatalogView() {
         : INDIVIDUAL_PRODUCTS.filter(product => product.category === activeTab);
 
     return (
-        <section id="katalog" className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full border-t border-gray-100">
+        <section id="katalog" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full border-t border-stone-100">
 
-            <div className="text-center mb-12">
-                <span className="text-hiking-orange font-bold text-xs uppercase tracking-widest block mb-1">Sewa Satuan</span>
-                <h2 className="text-3xl font-extrabold text-hiking-darkBrown tracking-tight">
+            <div className="text-center mb-14">
+                <span className="bg-orange-50 text-hiking-orange border border-orange-100 font-extrabold text-[10px] uppercase tracking-[0.2em] px-3.5 py-1.5 rounded-full inline-block mb-3.5 select-none">
+                    Sewa Satuan
+                </span>
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-hiking-darkBrown tracking-tight">
                     Katalog Alat Eceran
                 </h2>
-                <p className="text-gray-500 text-sm mt-2 max-w-md mx-auto">
+                <p className="text-gray-500 text-sm mt-3 max-w-lg mx-auto leading-relaxed">
                     Pilih jenis perlengkapan eceran berkualitas tinggi sesuai kebutuhan petualangan spesifik Anda.
                 </p>
             </div>
 
             {/* Grid Filter Kategori Visual Sesuai PDF */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mb-14">
                 {CATEGORIES.map((cat) => {
                     const isActive = activeTab === cat.id;
                     return (
                         <button
                             key={cat.id}
                             onClick={() => setActiveTab(cat.id)}
-                            className={`relative px-4 py-3 rounded-hiking-md border text-center flex flex-col items-center justify-center gap-1.5 transition-all duration-300 overflow-hidden group ${isActive
-                                ? 'bg-hiking-orange text-white border-hiking-orange shadow-lg shadow-orange-500/40 font-bold scale-[1.03] z-10'
-                                : 'bg-white text-gray-600 border-gray-100 shadow-sm hover:border-hiking-orange/40 hover:shadow-md hover:text-hiking-orange hover:-translate-y-1'
+                            className={`relative px-4 py-4 rounded-2xl border text-center flex flex-col items-center justify-center transition-all duration-300 overflow-hidden group ${isActive
+                                ? 'bg-gradient-to-r from-hiking-orange to-amber-500 text-white border-transparent shadow-lg shadow-orange-500/25 font-bold scale-[1.03] z-10'
+                                : 'bg-white text-stone-600 border-stone-100 shadow-sm hover:border-hiking-orange/30 hover:shadow-md hover:text-hiking-orange hover:-translate-y-1'
                                 }`}
                         >
                             {/* Latar Belakang Lingkaran (Glow Effect) untuk Active State */}
@@ -100,7 +102,9 @@ function CatalogView() {
                                 <div className="absolute w-24 h-24 bg-white/10 rounded-full blur-xl -top-6 -right-6 animate-pulse"></div>
                             )}
 
-                            <span className={`text-2xl mb-0.5 transition-transform duration-300 ${isActive ? 'scale-110 drop-shadow-md' : 'group-hover:scale-110'}`}>{cat.icon}</span>
+                            <div className={`w-10 h-10 rounded-full flex items-center justify-center mb-2 transition-colors duration-300 ${isActive ? 'bg-white/25' : 'bg-stone-50 group-hover:bg-orange-50'}`}>
+                                <span className={`text-xl transition-transform duration-300 ${isActive ? 'scale-110 drop-shadow-md' : 'group-hover:scale-110'}`}>{cat.icon}</span>
+                            </div>
                             <span className="text-[10px] tracking-wide leading-none font-extrabold uppercase relative z-10">{cat.name}</span>
                         </button>
                     );
