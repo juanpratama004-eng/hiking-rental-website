@@ -22,14 +22,14 @@ const INDIVIDUAL_PRODUCTS = [
     // CARRIER & TAS
     { id: 8, category: 'tas', categoryName: 'Carrier & Tas', name: 'NATUREHIKE 55L', price: 'Rp 40.000', image: 'item-carrier-consina-65l.jpg' },
     { id: 9, category: 'tas', categoryName: 'Carrier & Tas', name: 'Carrier 40-45L', price: 'Rp 20.000', image: 'item-carrier-random-45l.jpg' },
-    { id: 10, category: 'tas', categoryName: 'Carrier & Tas', name: 'CONSINA EVEREST GEN 3 65L', price: 'Rp 35.000', image: 'item-carrier-random-60l.jpg' },
     { id: 101, category: 'tas', categoryName: 'Carrier & Tas', name: 'Carrier 60L', price: 'Rp 30.000', image: 'no-image.jpg' },
+    { id: 10, category: 'tas', categoryName: 'Carrier & Tas', name: 'CONSINA EVEREST GEN 3 65L', price: 'Rp 35.000', image: 'item-carrier-random-60l.jpg' },
     { id: 11, category: 'tas', categoryName: 'Carrier & Tas', name: 'Daypack', price: 'Rp 20.000', image: 'item-daypack.jpg' },
     { id: 12, category: 'tas', categoryName: 'Carrier & Tas', name: 'Hydropack', price: 'Rp 20.000', image: 'item-hydropack.jpg' },
     { id: 13, category: 'tas', categoryName: 'Carrier & Tas', name: 'Rain Cover All Size', price: 'Rp 10.000', image: 'item-raincover.jpg' },
 
     // PERALATAN MASAK
-    { id: 14, category: 'masak', categoryName: 'Peralatan Masak', name: 'Kompor Kotak', price: 'Rp 15.000', image: 'item-kompor-kotak.jpg' },
+    { id: 14, category: 'masak', categoryName: 'Peralatan Masak', name: 'Kompor Kotak', price: 'Rp 25.000', image: 'item-kompor-kotak.jpg' },
     { id: 15, category: 'masak', categoryName: 'Peralatan Masak', name: 'Kompor Bunga', price: 'Rp 20.000', image: 'item-kompor-bunga.jpg' },
     { id: 16, category: 'masak', categoryName: 'Peralatan Masak', name: 'Kompor Grill', price: 'Rp 25.000', image: 'item-kompor-grill.jpg' },
     { id: 17, category: 'masak', categoryName: 'Peralatan Masak', name: 'Pan Grill', price: 'Rp 10.000', image: 'item-pan-grill.jpg' },

@@ -8,7 +8,7 @@ function Footer() {
                 {/* Kolom 1: Tentang / Deskripsi Ringkas */}
                 <div className="md:col-span-1 flex flex-col space-y-4">
                     <div className="flex items-center gap-2">
-                        <img src="/logo.png" alt="Royal Outdoor" className="h-10 w-auto" onError={(e) => e.target.style.display='none'} />
+                        <img src="/logo.png" alt="Royal Outdoor" className="h-10 w-auto" onError={(e) => e.target.style.display = 'none'} />
                         <span className="text-xl font-extrabold tracking-tight text-white select-none">
                             Royal<span className="text-hiking-orange">Outdoor</span>
                         </span>
@@ -25,12 +25,12 @@ function Footer() {
                                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                             </svg>
                         </a>
-                        <a href="https://wa.me/628123456789" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-xl bg-stone-800 hover:bg-hiking-orange text-stone-400 hover:text-white flex items-center justify-center transition-all duration-300 hover:-translate-y-1 shadow-sm">
+                        <a href="https://wa.me/+628981555240" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-xl bg-stone-800 hover:bg-hiking-orange text-stone-400 hover:text-white flex items-center justify-center transition-all duration-300 hover:-translate-y-1 shadow-sm">
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                                 <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
                             </svg>
                         </a>
-                        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-xl bg-stone-800 hover:bg-hiking-orange text-stone-400 hover:text-white flex items-center justify-center transition-all duration-300 hover:-translate-y-1 shadow-sm">
+                        <a href="https://maps.app.goo.gl/G78VZMP3EUjhA2v28" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-xl bg-stone-800 hover:bg-hiking-orange text-stone-400 hover:text-white flex items-center justify-center transition-all duration-300 hover:-translate-y-1 shadow-sm">
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                                 <path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"></path>
                                 <circle cx="12" cy="10" r="3"></circle>

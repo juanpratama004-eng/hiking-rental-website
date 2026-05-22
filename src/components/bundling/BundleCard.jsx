@@ -84,9 +84,9 @@ function BundleCard({ bundle }) {
 
                 {/* 3. KOTAK HARGA GELAP (Earth Tone Wood-Brown Gradient) */}
                 <div className="mt-6 bg-gradient-to-r from-hiking-darkBrown to-[#332822] p-4 rounded-2xl flex items-center justify-between shadow-md border border-[#524137]">
-                    <div className="flex-grow pr-2">
-                        <span className="text-[9px] text-stone-300/80 uppercase tracking-wider block leading-none mb-1.5 select-none font-extrabold">Total Biaya Sewa</span>
-                        <span className={`text-base font-black ${isFullBooked ? 'text-stone-400' : 'text-amber-400'}`}>
+                    <div className="flex flex-col justify-center">
+                        <span className="text-[9px] text-stone-300/80 uppercase tracking-wider block leading-none select-none font-extrabold">Total Biaya Sewa</span>
+                        <span className={`text-lg font-black leading-none mt-1.5 ${isFullBooked ? 'text-stone-400' : 'text-amber-400'}`}>
                             {bundle.price}
                         </span>
                     </div>
@@ -94,7 +94,7 @@ function BundleCard({ bundle }) {
                     {isFullBooked ? (
                         <button
                             disabled
-                            className="bg-stone-800 text-stone-500 border border-stone-700 text-[10px] font-extrabold py-2.5 px-4 rounded-xl cursor-not-allowed uppercase tracking-wider whitespace-nowrap shrink-0"
+                            className="bg-stone-800 text-stone-500 border border-stone-700 text-[10px] font-extrabold py-2.5 px-5 rounded-xl cursor-not-allowed uppercase tracking-wider whitespace-nowrap shrink-0 inline-flex items-center justify-center"
                         >
                             Full Booked
                         </button>
@@ -103,7 +103,7 @@ function BundleCard({ bundle }) {
                             href={`https://wa.me/+628981555240?text=${encodeURIComponent(`Halo Admin Royal Outdoor, saya tertarik untuk menyewa ${bundle.name} seharga ${bundle.price} untuk durasi ${bundle.duration}. Apakah slotnya masih tersedia?`)}`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-gradient-to-r from-hiking-orange to-amber-500 hover:from-hiking-orangeHover hover:to-amber-600 text-white text-[10px] font-extrabold py-2.5 px-4 rounded-xl transition-all duration-300 uppercase tracking-wider shadow-md hover:-translate-y-0.5 active:translate-y-0 text-center block whitespace-nowrap shrink-0"
+                            className="bg-gradient-to-r from-hiking-orange to-amber-500 hover:from-hiking-orangeHover hover:to-amber-600 text-white text-[10px] font-extrabold py-2.5 px-5 rounded-xl transition-all duration-300 uppercase tracking-wider shadow-md hover:-translate-y-0.5 active:translate-y-0 inline-flex items-center justify-center whitespace-nowrap shrink-0"
                         >
                             Sewa Paket
                         </a>

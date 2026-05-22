@@ -10,9 +10,9 @@ function Navbar() {
 
                     {/* Kiri: Logo / Brand */}
                     <div className="flex-shrink-0 flex items-center gap-2">
-                        <img src="/logo.png" alt="Royal Outdoor" className="h-10 w-auto" onError={(e) => e.target.style.display='none'} />
+                        <img src="/logo.png" alt="Royal Rent Outdoor" className="h-10 w-auto" onError={(e) => e.target.style.display = 'none'} />
                         <span className="text-xl font-extrabold tracking-tight text-hiking-darkBrown select-none">
-                            Royal<span className="text-hiking-orange">Outdoor</span>
+                            Royal Rent<span className="text-hiking-orange"> Outdoor</span>
                         </span>
                     </div>
 
